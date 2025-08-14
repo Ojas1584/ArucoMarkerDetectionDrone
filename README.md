@@ -1,13 +1,13 @@
 # 🛸 ArUco Marker Detection Drone
 
-This project integrates **OpenCV ArUco marker detection** with a **Bitcraze Crazyflie** nano-drone to enable **vision-based autonomous navigation**.  
+This project integrates **OpenCV ArUco marker detection** with a **nano-drone** to enable **vision-based autonomous navigation**.  
 The drone identifies specific ArUco markers in real time and performs corresponding flight maneuvers.
 
 ---
 
 ## 📌 Features
 - **Real-time ArUco detection** (`DICT_4X4_50` & `DICT_5X5_50` supported)
-- **Crazyflie drone control** via the `cflib` Motion Commander API
+- **Drone control** via the `cflib` Motion Commander API
 - **Marker ID → Flight Command mapping** for customizable navigation
 - Live video feed with detected markers and command overlays
 - Works with USB or built-in laptop camera
