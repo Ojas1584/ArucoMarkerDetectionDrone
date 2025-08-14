@@ -41,5 +41,5 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 
 ---
 
-## 📁 Project Structure
+
 
