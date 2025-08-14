@@ -4,16 +4,17 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 
 ---
 
-## 🖼 Sample ArUco Markers
 
-<p align="center">
-  <img src="Aruco8.png" width="120" />
-  <img src="Aruco37.png" width="120" />
-  <img src="Aruco4.png" width="120" />
-  <img src="aruco1.png" width="120" />
-  <img src="aruco2.png" width="120" />
-  <img src="aruco3.png" width="120" />
-</p>
+### 🟩 Sample ArUco Markers
+
+| Marker ID 8 | Marker ID 37 | Marker ID 4 |
+|------------|-------------|------------|
+| <img src="Aruco8.png" width="120" /> | <img src="Aruco37.png" width="120" /> | <img src="Aruco4.png" width="120" /> |
+
+| Marker ID 1 | Marker ID 2 | Marker ID 3 |
+|------------|-------------|------------|
+| <img src="aruco1.png" width="120" /> | <img src="aruco2.png" width="120" /> | <img src="aruco3.png" width="120" /> |
+
 
 
 ---
