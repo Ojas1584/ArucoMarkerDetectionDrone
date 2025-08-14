@@ -1,4 +1,4 @@
-[# 🛸 ArUco Marker Detection UAV
+# 🛸 ArUco Marker Detection UAV
 
 This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV and perform navigation commands accordingly. It supports both 4x4 and 5x5 ArUco markers with custom IDs for drone movement control.
 
@@ -7,11 +7,11 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 ## 🖼 Sample ArUco Markers
 
 <p align="center">
-  <img src="markers/aruco.png" width="120" />
+  <img src="markers/Aruco8.png" width="120" />
+  <img src="markers/Aruco37.png" width="120" />
+  <img src="markers/Aruco4.png" width="120" />
   <img src="markers/aruco1.png" width="120" />
   <img src="markers/aruco2.png" width="120" />
-  <img src="markers/aruco3.png" width="120" />
-  <img src="markers/aruco5.jpeg" width="120" />
 </p>
 
 ---
@@ -36,5 +36,7 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 | 3         | 4x4        | Turn Right |
 | 4         | 4x4        | Turn Left |
 
-
 ---
+
+## 📁 Project Structure
+
