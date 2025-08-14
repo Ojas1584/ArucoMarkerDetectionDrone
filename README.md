@@ -1,50 +1,32 @@
-# 🛸 ArUco Marker Detection Drone
+# 🛸 ArUco Marker Detection UAV
 
-This project integrates **OpenCV ArUco marker detection** with a **nano-drone** to enable **vision-based autonomous navigation**.  
-The drone identifies specific ArUco markers in real time and performs corresponding flight maneuvers.
+This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV and perform navigation commands accordingly. It supports both 4x4 and 5x5 ArUco markers with custom IDs for drone movement control.
 
 ---
 
 ## 📌 Features
-- **Real-time ArUco detection** (`DICT_4X4_50` & `DICT_5X5_50` supported)
-- **Drone control** via the `cflib` Motion Commander API
-- **Marker ID → Flight Command mapping** for customizable navigation
-- Live video feed with detected markers and command overlays
-- Works with USB or built-in laptop camera
+
+- Detects multiple ArUco marker dictionaries (4x4 and 5x5) in real-time  
+- Maps marker IDs to UAV navigation commands (ascend, land, move forward/backward, turn)  
+- Displays detected markers and commands on live camera feed  
+- Compatible with Nano Drone / UAV for autonomous navigation  
 
 ---
 
-## 🎯 Marker Commands
-| Marker ID | Command       | Action in Drone |
-|-----------|--------------|-----------------|
-| 8         | Ascend       | Moves up 0.4 m |
-| 37        | Land         | Stops all motion |
-| 1         | Move Forward | Moves forward 0.2 m |
-| 2         | Move Backward| Moves backward 0.2 m |
-| 3         | Turn Right   | Rotates 90° clockwise |
-| 4         | Turn Left    | Rotates 90° counter-clockwise |
+## 🧩 ArUco Marker Details
+
+| Marker ID | Dictionary | Command |
+|-----------|------------|---------|
+| 8         | 4x4        | Ascend  |
+| 37        | 4x4        | Land    |
+| 1         | 4x4        | Move Forward |
+| 2         | 4x4        | Move Backward |
+| 3         | 4x4        | Turn Right |
+| 4         | 4x4        | Turn Left |
+
+> **Note:** The images in the `markers/` folder correspond to these IDs. Ensure the images are printed/scaled correctly for reliable detection.
 
 ---
 
-## 🖼️ Example ArUco Markers
-Below are the ArUco markers used for navigation.  
-(Ensure these are printed clearly for accurate detection.)
+## 📁 Project Structure
 
-| ID 1 | ID 2 | ID 3 |
-|------|------|------|
-| ![Marker 1](aruco1.png) | ![Marker 2](aruco2.png) | ![Marker 3](aruco3.png) |
-
-| ID 4 | ID 8 | ID 37 |
-|------|------|-------|
-| ![Marker 4](aruco4.png) | ![Marker 8](aruco8.png) | ![Marker 37](aruco37.png) |
-
----
-
-## 🛠️ Installation
-```bash
-# Clone repository
-git clone https://github.com/yourusername/ArucoMarkerDetectionDrone.git
-cd ArucoMarkerDetectionDrone
-
-# Install dependencies
-pip install opencv-python numpy cflib
