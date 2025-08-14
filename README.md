@@ -4,6 +4,18 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 
 ---
 
+## 🖼 Sample ArUco Markers
+
+<p align="center">
+  <img src="markers/aruco.png" width="120" />
+  <img src="markers/aruco1.png" width="120" />
+  <img src="markers/aruco2.png" width="120" />
+  <img src="markers/aruco3.png" width="120" />
+  <img src="markers/aruco5.jpeg" width="120" />
+</p>
+
+---
+
 ## 📌 Features
 
 - Detects multiple ArUco marker dictionaries (4x4 and 5x5) in real-time  
@@ -15,16 +27,15 @@ This project enables a **Nano Drone / UAV** to detect ArUco markers using OpenCV
 
 ## 🧩 ArUco Marker Details
 
-| Marker ID | Dictionary | Command | Image |
-|-----------|------------|---------|-------|
-| 8         | 4x4        | Ascend  | ![Marker 8](markers/aruco.png) |
-| 37        | 4x4        | Land    | ![Marker 37](markers/aruco1.png) |
-| 1         | 4x4        | Move Forward | ![Marker 1](markers/aruco2.png) |
-| 2         | 4x4        | Move Backward | ![Marker 2](markers/aruco3.png) |
-| 3         | 4x4        | Turn Right | ![Marker 3](markers/aruco5.jpeg) |
-| 4         | 4x4        | Turn Left | ![Marker 4](markers/aruco4.png) |
+| Marker ID | Dictionary | Command |
+|-----------|------------|---------|
+| 8         | 4x4        | Ascend  |
+| 37        | 4x4        | Land    |
+| 1         | 4x4        | Move Forward |
+| 2         | 4x4        | Move Backward |
+| 3         | 4x4        | Turn Right |
+| 4         | 4x4        | Turn Left |
 
-> **Note:** Make sure the marker images exist in the `markers/` folder inside the repo.
 
 ---
 
