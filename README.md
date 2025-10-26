@@ -91,7 +91,7 @@ The novel methods for localization and control developed in this project are the
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Ojas1584/ArucoMarkerDetectionDrone.git
-    cd ArUco-Marker-Detection-UAV
+    cd ArucoMarkerDetectionDrone
     ```
 
 2.  **Install dependencies:**
@@ -120,5 +120,11 @@ The novel methods for localization and control developed in this project are the
 
 ---
 
+
+## Patent Notice
+
+Please be advised that certain features or methods implemented within this software may be subject to patent application number **202521075349**. The MIT license under which this software is released pertains only to the copyright of the code and **does not grant any express or implied license to any patent rights** associated with the aforementioned application or any resulting patent. A separate license may be required from the patent holder(s) to utilize the patented inventions.
+
+---
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
