@@ -1,4 +1,4 @@
-# 🛸 Patented UAV Navigation for GPS-Denied Environments
+#  Marker-Based Navigation System and Method for UAVs 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=yellow)](https://www.python.org/)
@@ -12,7 +12,7 @@ This is a complete hardware/software solution, validated in simulation (ROS/Gaze
 
 ---
 
-## 📌 Core Features
+##  Core Features
 
 - **High-Precision Localization:** Uses OpenCV to detect ArUco markers and perform 6-DoF pose estimation, enabling the drone to know its exact position and orientation without GPS.
 - **Robust ID-Based Control Logic:** A custom-engineered control system (part of the patent) maps specific ArUco marker IDs to complex flight commands (e.g., ascend, land, move, turn).
@@ -45,7 +45,7 @@ The system operates on a closed-loop, off-board control principle:
 
 ---
 
-## 🧩 ArUco Command Logic
+##  ArUco Command Logic
 
 The system is configured to respond to specific markers with pre-defined commands.
 
@@ -60,7 +60,7 @@ The system is configured to respond to specific markers with pre-defined command
 
 ---
 
-## 📊 Results & Validation
+##  Results & Validation
 
 This system was validated against baseline navigation methods and demonstrated significant performance gains:
 
@@ -69,7 +69,7 @@ This system was validated against baseline navigation methods and demonstrated s
 
 ---
 
-## 📜 Patent Status
+##  Patent Status
 
 The novel methods for localization and control developed in this project are the subject of a filed patent.
 
@@ -77,7 +77,7 @@ The novel methods for localization and control developed in this project are the
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
