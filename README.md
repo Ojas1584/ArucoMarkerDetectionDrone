@@ -22,7 +22,7 @@ This is a complete hardware/software solution, validated in simulation (ROS/Gaze
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 * **Core Logic:** Python 3.9+
 * **Computer Vision:** OpenCV (opencv-python-contrib)
@@ -33,7 +33,7 @@ This is a complete hardware/software solution, validated in simulation (ROS/Gaze
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 The system operates on a closed-loop, off-board control principle:
 
